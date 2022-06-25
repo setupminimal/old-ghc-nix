@@ -1,7 +1,7 @@
 { localSystem }:
 
 let sources = import ./nix/sources.nix { };
-    nixpkgs-args = { localSystem };
+    nixpkgs-args = { localSystem = localSystem; };
 in
 rec {
   nixpkgs-ghc6104 = import sources.nixpkgs-ghc6104 nixpkgs-args;
