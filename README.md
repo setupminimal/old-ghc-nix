@@ -2,7 +2,7 @@
 
 Works on my machine (`x86_64-linux`).
 
-How to use: take a look at [`default.nix`](default.nix).
+How to use: take a look at [`default.nix`](default.nix). Invoke this package with the system that it should build for. This is pure, so it can be used in flakes.
 
 The following GHC versions and the corresponding last-known-to-build nixpkgs
 revisions are included, most are cached in `cache.nixos.org`:
