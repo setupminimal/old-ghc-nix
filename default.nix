@@ -76,4 +76,6 @@ rec {
   ghc8102 = nixpkgs-ghc8102.haskell.compiler.ghc8102;
   nixpkgs-ghc8103 = import sources.nixpkgs-ghc8103 nixpkgs-args;
   ghc8103 = nixpkgs-ghc8103.haskell.compiler.ghc8103;
+  nixpkgs-ghc8104 = import sources.nixpkgs-ghc8104 nixpkgs-args;
+  ghc8104 = nixpkgs-ghc8104.haskell.compiler.ghc8104;
 }
